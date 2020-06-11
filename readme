@@ -1,0 +1,9 @@
+data22.csv         小说的书名，作者，详情，介绍
+data23.csv         小说里面的章节名称
+data1.csv到data21.csv可以不用看，那都是调试产生的文件
+word_cloud.py对应data22.csv的词云
+word_cloud_2.py对应data23.csv的词云
+novel.py是执行文件
+进入到本文件夹目录，在终端输入  scrapy runspider novel.py -o data24.csv
+或者  scrapy runspider novel.py  就有结果了。novel.py爬了两部分内容，有两个field,
+注释其中一个field.分别得到内容。
